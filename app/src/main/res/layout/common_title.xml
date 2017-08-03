@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="48dp"
+              android:background="@color/colorPrimary"
+              android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:drawableLeft="@drawable/selector_alarm_setting"
+        android:gravity="center"
+        android:text="返回"
+        android:id="@+id/tv_back"
+        android:textColor="@color/selector_btn_textcolor"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="50dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="当日工作"
+        android:textColor="#ffffff"
+        android:textSize="24sp"/>
+</LinearLayout>
